@@ -28,3 +28,8 @@ imageElement.setAttribute('alt', 'Image from Unsplash');
 headingElement.innerText = 'Unsplash API';
 paragraphElement.innerText = 'this sets the value of an attribute specified element. If exists then will be updated';
 btnElement.innerText = 'Learn More';
+
+bodyElement.appendChild(cardElement);
+cardElement.appendChild(imageElement, infoContainer);
+
+imageContainer.appendChild(imageElement);
