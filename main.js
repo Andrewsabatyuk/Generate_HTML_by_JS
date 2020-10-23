@@ -14,3 +14,9 @@ imageElement.className = 'image';
 headingElement.className = 'heading';
 paragraphElement.className = 'paragraph';
 btnElement.className = 'btn';
+
+
+//works the same as the className property except it sets the source ofthe imageElement
+imageElement.src = 'https://source.unsplash.com/random';
+
+btnElement.setAttribute('href', '#');
