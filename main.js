@@ -30,7 +30,7 @@ paragraphElement.innerText = 'this sets the value of an attribute specified elem
 btnElement.innerText = 'Learn More';
 
 bodyElement.appendChild(cardElement);
-cardElement.appendChild(imageContainer, infoContainer);
+cardElement.append(imageContainer, infoContainer);
 
 imageContainer.appendChild(imageElement);
 infoContainer.append(headingElement, paragraphElement, btnElement);
