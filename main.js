@@ -17,7 +17,7 @@ btnElement.className = 'btn';
 
 
 //works the same as the className property except it sets the source ofthe imageElement
-imageElement.src = 'https://source.unsplash.com/random';
+imageElement.src = "https://source.unsplash.com/random";
 
 // this sets the value of an attribute specified element. If exists then will be updated, 
 // otherwise the new attribute is added with the specified name and value
@@ -30,6 +30,7 @@ paragraphElement.innerText = 'this sets the value of an attribute specified elem
 btnElement.innerText = 'Learn More';
 
 bodyElement.appendChild(cardElement);
-cardElement.appendChild(imageElement, infoContainer);
+cardElement.appendChild(imageContainer, infoContainer);
 
 imageContainer.appendChild(imageElement);
+infoContainer.append(headingElement, paragraphElement, btnElement);
