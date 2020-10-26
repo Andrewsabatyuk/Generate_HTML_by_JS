@@ -17,6 +17,7 @@ body {
 }
 
 .card {
+    margin: 0 auto;
   width: 28rem;
   font-family: "Open Sans", sans-serif;
   background-color: #f4f4f4;

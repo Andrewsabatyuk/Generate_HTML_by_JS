@@ -21,13 +21,13 @@ imageElement.src = "https://source.unsplash.com/random";
 
 // this sets the value of an attribute specified element. If exists then will be updated, 
 // otherwise the new attribute is added with the specified name and value
-btnElement.setAttribute('href', '#');
+btnElement.setAttribute('href', 'https://unsplash.com/');
 imageElement.setAttribute('alt', 'Image from Unsplash');
 
 // adding text to the page
 headingElement.innerText = 'Unsplash API';
-paragraphElement.innerText = 'this sets the value of an attribute specified element. If exists then will be updated';
-btnElement.innerText = 'Learn More';
+paragraphElement.innerText = 'If you wan`t some cool image press button';
+btnElement.innerText = 'Go to Unsplash';
 
 bodyElement.appendChild(cardElement);
 cardElement.append(imageContainer, infoContainer);
